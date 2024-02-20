@@ -1,0 +1,5 @@
+3 TE:
+
+	- un des TE c'est la moyenne de chaque quiz qu'il y a au debut de chaque semaine (lundi)
+
+	
