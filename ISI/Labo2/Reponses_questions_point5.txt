@@ -1,0 +1,22 @@
+5.1) Simplement par le fait qu'en ajoutant un seul a chaque mot de passe 
+
+
+6.1)
+
+Eve |NCEIPO||LMHash(web site)|
+
+Mallory |JULIETT et E173 et| |LMHash(web site)|
+
+Alice |FUNTIME| |LMHash(web site) |
+
+Bob |!XS8D?@ et 0 | | LMHash(web site)|
+
+Dave |57R4WB3 | | LMHash(web site)|
+
+Carol |RDQOM | | LMHash(web site)|
+
+Oscar |?XA1W | |LMHash(web site) |
+
+Trudy |9823029 et 3 | | LMHash(web site)|
+
+
