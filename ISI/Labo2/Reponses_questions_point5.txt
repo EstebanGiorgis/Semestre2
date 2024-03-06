@@ -1,22 +1,22 @@
-5.1) Simplement par le fait qu'en ajoutant un seul a chaque mot de passe 
+5.1) En ajoutant un sel à chaque mot de passe avant le hachage, pour deux utilisateurs qui ont le même mot de passe en clair, leurs mots de passe hachés ne seront pas pareil grace a l'ajut du sel avant le hashage. L'efficacité des tables arc-en-ciel est compromise lorsque des sels sont utilisés, car il faudra utiliser un nouvelle rainbow table pour trouver la partie salée.
 
 
 6.1)
 
-Eve |NCEIPO||LMHash(web site)|
+Eve |NCEIPO|http://rainbowtables.it64.com/|Rainbow tables|
 
-Mallory |JULIETT et E173 et| |LMHash(web site)|
+Mallory |JULIETT et E173 et| http://rainbowtables.it64.com/ |Rainbow tables|
 
-Alice |FUNTIME| |LMHash(web site) |
+Alice |FUNTIME| http://rainbowtables.it64.com/|Rainbow tables|
 
-Bob |!XS8D?@ et 0 | | LMHash(web site)|
+Bob |!XS8D?@ et 0 | http://rainbowtables.it64.com/ |Rainbow tables|
 
-Dave |57R4WB3 | | LMHash(web site)|
+Dave |57R4WB3 | http://rainbowtables.it64.com/ |Rainbow tables
 
-Carol |RDQOM | | LMHash(web site)|
+Carol |RDQOM | http://rainbowtables.it64.com/ |Rainbow tables|
 
-Oscar |?XA1W | |LMHash(web site) |
+Oscar |?XA1W | http://rainbowtables.it64.com/ |Rainbow tables|
 
-Trudy |9823029 et 3 | | LMHash(web site)|
+Trudy |9823029 et 3 | http://rainbowtables.it64.com/|Rainbow tables|
 
 
