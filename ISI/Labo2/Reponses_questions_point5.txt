@@ -1,4 +1,4 @@
-5.1) En ajoutant un sel à chaque mot de passe avant le hachage, pour deux utilisateurs qui ont le même mot de passe en clair, leurs mots de passe hachés ne seront pas pareil grace a l'ajut du sel avant le hashage. L'efficacité des tables arc-en-ciel est compromise lorsque des sels sont utilisés, car il faudra utiliser un nouvelle rainbow table pour trouver la partie salée.
+5.1) En ajoutant un sel à chaque mot de passe avant le hachage, pour deux utilisateurs qui ont le même mot de passe en clair, leurs mots de passe hachés ne seront pas pareil grace a l'ajout du sel avant le hashage qui est a chaque fois aléatoire et qui sera donc combiné avec le mot de passe puis hashé.
 
 
 6.1)

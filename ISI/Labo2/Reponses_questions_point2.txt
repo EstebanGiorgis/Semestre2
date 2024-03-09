@@ -34,7 +34,14 @@
 
 2.16) 2^14 
 
-2.17) Limiter les tentatives, après X tentatives chaque tentative suivant raté demandera un temps d'attente avant de pouvoir à nouveau essayer un mot de passe, le temps d'attente augmente de manière exponentielle.
+2.17)
+- Hasher les mots de passes
+- ajouter un sel
+- 
+
+
+
+ Limiter les tentatives, après X tentatives chaque tentative suivant raté demandera un temps d'attente avant de pouvoir à nouveau essayer un mot de passe, le temps d'attente augmente de manière exponentielle.
 
 Implémenter un système de double authentification avec une validation par téléphone par exemple, c'est-à-dire qu'une fois avoir entré le bon de passe, il faut ensuite entrer un code, à X chiffres/lettre, généré aléatoirement, qui est envoyé par message à un numéro de téléphone. Il y a de même un certain temps pour inscrit le message avant qu'il soit expiré, donc qui ne soit plus valide pour passer cette seconde étape d'authentification.  
 
