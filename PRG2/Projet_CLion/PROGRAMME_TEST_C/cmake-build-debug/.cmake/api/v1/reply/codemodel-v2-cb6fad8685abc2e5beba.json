@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PROGRAMME_TEST_C",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PROGRAMME_TEST_C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PROGRAMME_TEST_C-Debug-b339a95c2589b2078aec.json",
+					"name" : "PROGRAMME_TEST_C",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/HEIG-VD/Cours/Semestre2/PRG2/Projet_CLion/PROGRAMME_TEST_C/cmake-build-debug",
+		"source" : "C:/HEIG-VD/Cours/Semestre2/PRG2/Projet_CLion/PROGRAMME_TEST_C"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
