@@ -1,0 +1,4 @@
+1) Crées un fichier doctest.h ou tu colle le texte prédefini
+2) Tu crées un fichier tests.cpp ou tu mettras tes tests
+3) Tu modifies le CMakeLists.txt pour ajouter dans "add_executable(..)" ton fichier tests.cpp
+4) Tu crées une nouvelle configuration "Doctest" puis dans la sous-section tu la nomme "tests" et tu l'a fais pointer sur l'executable principale
