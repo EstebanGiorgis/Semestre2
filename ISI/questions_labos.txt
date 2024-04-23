@@ -1,4 +1,0 @@
-1) Manipulation de l'URL
-2) Le fait que l'url donne en claire l'id et d'autre information lié a l'user connecté 
-3) Changer la valeur de "id" de l'URL en la passant de 2 a 1. 2 est l'id de l'utilisateur "test" et 1 est celle de l'admin
-
