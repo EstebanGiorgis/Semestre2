@@ -1,0 +1,17 @@
+2.1)La variable s'appel "s" et c'est un tableau de plusieurs int (256) 
+
+2.2) La variable a pour nom "lpKey" et est de type "const char*"
+
+2.3) Le bloc de code qui initialise l'état interne commence à la ligne 107 jusqu'à la ligne 109 (code de base), une boucle for est utilisé pour initialiser chaque index du tableau de 0 à 255
+
+2.4) Une boucle for est utilisé de la ligne 110 à la ligne 115 (code de base) pour pour effectuer le mélange grace a la clé (lpKey[]) ainsi que des swaps
+
+2.5) Le bloc de code commence a la ligne 118 jusqu'a la ligne 127 (code de base) permet de chiffrer/dechiffrer le code par XOR. Le keystream est généré à ligne 126 (code de base)
+
+
+2.6) On commence d'abord par choisir un nouveau mot en clair (P') que l'on chiffre (C') avec la même clé utilisé pour chiffrer P qui donne C. On compare ensuite la différence de C' et C qui donnera un result R puis on compare ensuite P et R              [!!!PAS SURE!!!]
+
+
+
+2.7) Les 2 keystream sont identiques, car le keystream est généré a l'aide de la clé 
+
