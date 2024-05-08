@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Labo/l4-buffer-circulaire-de-capacit-variable-l4_giorgis_ferreira_augsburger" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Labo/l5-liste-l5_augsburger_ferreira_giorgis-1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Labo/l6-expressions-arithm-tiques-l6_augsburger_ferreira_giorgis" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Labo/labo-1-complexites-tribolet_giorgis_ferreira" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Labo/labo-2-puzzle-impossible-tribolet_giorgis_ferreira-l2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Labo/labo-3-tris-tribolet_giorgis_ferreira_l3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Labo/labo-3-tris-tribolet_giorgis_ferreira_l3/src/cmake-build-debug/_deps/doctest-src" vcs="Git" />
+  </component>
+</project>

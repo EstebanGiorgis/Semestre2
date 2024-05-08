@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="92dd5406-fd73-4470-a8ba-70746f9b8c6d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../ARO/Labo6/workspace/processeur_ARO2_pipeline_student.circ" beforeDir="false" afterPath="$PROJECT_DIR$/../ARO/Labo6/workspace/processeur_ARO2_pipeline_student.circ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo/l5-liste-l5_augsburger_ferreira_giorgis-1/.idea/l5-liste-l5_augsburger_ferreira_giorgis-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Labo/l5-liste-l5_augsburger_ferreira_giorgis-1/.idea/l5-liste-l5_augsburger_ferreira_giorgis-1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo/l6-expressions-arithm-tiques-l6_augsburger_ferreira_giorgis/src/stack/evaluator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Labo/l6-expressions-arithm-tiques-l6_augsburger_ferreira_giorgis/src/stack/evaluator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo/l6-expressions-arithm-tiques-l6_augsburger_ferreira_giorgis/src/stack/evaluator.h" beforeDir="false" afterPath="$PROJECT_DIR$/Labo/l6-expressions-arithm-tiques-l6_augsburger_ferreira_giorgis/src/stack/evaluator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo/labo-1-complexites-tribolet_giorgis_ferreira/src/simple_sorts/simple_sorts.h" beforeDir="false" afterPath="$PROJECT_DIR$/Labo/labo-1-complexites-tribolet_giorgis_ferreira/src/simple_sorts/simple_sorts.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo/labo-2-puzzle-impossible-tribolet_giorgis_ferreira-l2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Labo/labo-2-puzzle-impossible-tribolet_giorgis_ferreira-l2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ISI/Labo4/Reponses_questions_point_2_RC4(1)_Esteban_Giorgis.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ISI/Labo4/Reponses_questions_point_2_RC4(1)_Esteban_Giorgis.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MAT2/geometrie_analytique_espace.xopp" beforeDir="false" afterPath="$PROJECT_DIR$/../MAT2/geometrie_analytique_espace.xopp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2gBaenVyfHp5NANx4YvoxRsxuhw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/HEIG-VD/Cours/Semestre2/ASD/Labo/l6-expressions-arithm-tiques-l6_augsburger_ferreira_giorgis",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92dd5406-fd73-4470-a8ba-70746f9b8c6d" name="Changes" comment="" />
+      <created>1715173522347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715173522347</updated>
+      <workItem from="1715173523459" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

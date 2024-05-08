@@ -9,9 +9,13 @@
 2.5) Le bloc de code commence a la ligne 118 jusqu'a la ligne 127 (code de base) permet de chiffrer/dechiffrer le code par XOR. Le keystream est généré à ligne 126 (code de base)
 
 
-2.6) On commence d'abord par choisir un nouveau mot en clair (P') que l'on chiffre (C') avec la même clé utilisé pour chiffrer P qui donne C. On compare ensuite la différence de C' et C qui donnera un result R puis on compare ensuite P et R              [!!!PAS SURE!!!]
-
+2.6) Il est possible de retrouver le keystream en faisant un XOR de P et C
 
 
 2.7) Les 2 keystream sont identiques, car le keystream est généré a l'aide de la clé 
+
+
+2.8) Le fait d'avoir une image en clair ainsi que sa version chiffrée nous a permis d'obtenir le keystream qui nous a ensuite permis d'obtenir la version déchiffrée de la deuxième image. Pour acquérir le keystream nous avons effectué un XOR entre l'image en clair et sa version chiffrée (en ne prenant pas l'en-tête de chaque image). On a ensuite à nouveau effectué un XOR entre la deuxième image chiffrée et le keystream obtenu juste avant
+
+2.9)
 
