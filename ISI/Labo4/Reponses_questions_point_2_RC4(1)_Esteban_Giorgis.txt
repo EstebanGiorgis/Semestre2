@@ -1,4 +1,4 @@
-2.1)La variable s'appel "s" et c'est un tableau de plusieurs int (256) 
+2.1)La variable s'appel "" et c'est un tableau de plusieurs int (256) 
 
 2.2) La variable a pour nom "lpKey" et est de type "const char*"
 
@@ -17,5 +17,4 @@
 
 2.8) Le fait d'avoir une image en clair ainsi que sa version chiffrée nous a permis d'obtenir le keystream qui nous a ensuite permis d'obtenir la version déchiffrée de la deuxième image. Pour acquérir le keystream nous avons effectué un XOR entre l'image en clair et sa version chiffrée (en ne prenant pas l'en-tête de chaque image). On a ensuite à nouveau effectué un XOR entre la deuxième image chiffrée et le keystream obtenu juste avant
 
-2.9)
-
+2.9)Oui, il suffit d'effectuer un XOR entre le keystream et le vecteur d'initialisation pour obtenir la key

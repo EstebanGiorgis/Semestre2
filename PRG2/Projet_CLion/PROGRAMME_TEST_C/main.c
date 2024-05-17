@@ -10,28 +10,31 @@
 #include <string.h>
 #include <ctype.h>
 
-unsigned int get_hexadecimal_digit(unsigned int ui, int n) {
 
-    // VOTRE CODE VIENT ICI.
-    int res=0;
-    unsigned int mask = 0xF;//0b1111
-
-    for(int i = n; i>=0; --i){
-        res = ui & (mask<<i);
-    }
-
-    return res;
-
+// Fonction pour vérifier si une chaîne contient le motif "subcmd"
+int contientMotif(const char *chaine, const char *motif) {
+    return strstr(chaine, motif) != NULL;
 }
 
+// Fonction principale
 int main() {
+    // Tableau de chaînes de caractères
+    const char const *chaines[4] = {
+        "commande1 subcmd",
+        "autre commande",
+        "encore subcmd ici",
+        "dernière chaîne"
+    };
 
-    unsigned int ui = 1234567890;
-    scanf("%u", &ui);
+    const char *motif = "subcmd";
+    int i;
 
-    for(int i = 7; i >= 0; --i)
-        printf("%u ", get_hexadecimal_digit(ui, i));
-    printf("\n");
+    // Parcours du tableau
+    for (i = 0; i < sizeof(chaines) / sizeof(chaines[0]); ++i) {
+        if (contientMotif(chaines[i], motif)) {
+            printf("La chaîne \"%s\" contient le motif \"%s\".\n", chaines[i], motif);
+        }
+    }
 
     return 0;
 }
