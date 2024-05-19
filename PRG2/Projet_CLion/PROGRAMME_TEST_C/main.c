@@ -9,32 +9,24 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
+#include <stdio.h>
+#include <stdint.h>
 
 
-// Fonction pour vérifier si une chaîne contient le motif "subcmd"
-int contientMotif(const char *chaine, const char *motif) {
-    return strstr(chaine, motif) != NULL;
-}
+#pragma pack(push, 1)
+struct MyStruct {
+    char a;
+    int b;
+};
+#pragma pack(pop)
 
-// Fonction principale
-int main() {
-    // Tableau de chaînes de caractères
-    const char const *chaines[4] = {
-        "commande1 subcmd",
-        "autre commande",
-        "encore subcmd ici",
-        "dernière chaîne"
-    };
 
-    const char *motif = "subcmd";
-    int i;
+int main(){
 
-    // Parcours du tableau
-    for (i = 0; i < sizeof(chaines) / sizeof(chaines[0]); ++i) {
-        if (contientMotif(chaines[i], motif)) {
-            printf("La chaîne \"%s\" contient le motif \"%s\".\n", chaines[i], motif);
-        }
-    }
+    struct MyStruct m;
 
+    m.b=256;
+
+    printf("%d", m.b);
     return 0;
 }
