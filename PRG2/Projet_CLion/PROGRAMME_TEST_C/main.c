@@ -13,20 +13,13 @@
 #include <stdint.h>
 
 
-#pragma pack(push, 1)
-struct MyStruct {
-    char a;
-    int b;
-};
-#pragma pack(pop)
+#define CONCAT(a, b) a##b
 
 
-int main(){
+int my_variable = 10;
 
-    struct MyStruct m;
-
-    m.b=256;
-
-    printf("%d", m.b);
+int main() {
+    int concatenated_variable = CONCAT(my_, variable);
+    printf("%d\n", concatenated_variable); // Imprimera 10
     return 0;
 }
