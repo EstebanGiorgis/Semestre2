@@ -13,13 +13,14 @@
 #include <stdint.h>
 
 
-#define CONCAT(a, b) a##b
+int main(){
 
+    char *tab;
 
-int my_variable = 10;
+    tab = (char *) malloc(4*sizeof(char));
 
-int main() {
-    int concatenated_variable = CONCAT(my_, variable);
-    printf("%d\n", concatenated_variable); // Imprimera 10
-    return 0;
+    if(tab == NULL){
+        printf("Erreur nim %d", errno);
+        perror("Erreur nim ");
+    }
 }
