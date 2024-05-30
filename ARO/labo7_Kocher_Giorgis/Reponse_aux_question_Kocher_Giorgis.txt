@@ -1,0 +1,16 @@
+2) 
+	
+- Quand la cst = 1 le pipeline est mode forwarding donc chaque niveau travail en permanance, c'est la raison pour laquel les entrée fetch/decode/execute/memory/writeback_en_o valent en permanance 1 après 5 coup de clock. 
+- Quand la cst = 0 le pipeline est en mode arret de pipeline 
+
+
+4) Oui cela est du au load le registre ne sera pas accessible avant l'ecriture en mémoire
+
+5) Indique simplement si c'est une instruction qui travail avec la mémoire (LDR ou STR)
+5.1) Nous indique s'il faut faire un arret de pipeline
+6)Non
+7) il doit y avoir une gestion du timing, une dependence de données entre les instructions
+8) La durée d'execution du programme (execution de toutes les instructions du programme) est moins longue avec forwarding
+
+9) Il permet de selection les données entre celles des registre de l'execute, du memory ou du write_back
+10) Car il réccupère ses données depuis la mémoire
