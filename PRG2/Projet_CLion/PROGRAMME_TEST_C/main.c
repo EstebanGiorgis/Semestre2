@@ -12,15 +12,36 @@
 #include <stdio.h>
 #include <stdint.h>
 
+int main(int argc, char** argv){
 
-int main(){
+    int cap = 5;
 
-    char *tab;
-
-    tab = (char *) malloc(4*sizeof(char));
-
-    if(tab == NULL){
-        printf("Erreur nim %d", errno);
-        perror("Erreur nim ");
+    int* tab = NULL;
+    tab = (int *) malloc(cap * sizeof(int));
+    if(!tab){
+        return -1;
     }
+
+    int nbr;
+
+    printf("entre \n");
+    scanf("%d", &nbr);
+    int i=-1;
+    while(i!=9){
+        i++;
+        tab[i] = nbr;
+        scanf("%d", &nbr);
+
+    }
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    for(int j=0; j<i;j++){
+        printf("%d\n", tab[j]);
+    }
+
+
+    out:
+    free(tab);
+
 }
